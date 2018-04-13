@@ -2,6 +2,11 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i&subset=cyrillic');
 
 body {
+   background: url(http://ntheanh201.github.io/yeu/img/background.png) no-repeat center center fixed;
+  -webkit-background-size: 100%;
+  -moz-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%;
   font-family: 'Roboto', Helvetica, sans-serif;
   color: #666;
   margin: 0;
