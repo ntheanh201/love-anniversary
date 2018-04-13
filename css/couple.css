@@ -137,7 +137,10 @@ a:visited, a:visited:hover {
     font-family: 'FiolexGirl';
     src: url('../fonts/FiolexGirlVH.ttf');
 }
-
+.homepage-cover {
+    background-size: cover;
+    background-position: center center;
+}
 element.style{
     background-image: url(http://ntheanh201.github.io/img/background);
     height: 838px;
