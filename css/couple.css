@@ -138,6 +138,12 @@ a:visited, a:visited:hover {
     src: url('../fonts/FiolexGirlVH.ttf');
 }
 
+element.style{
+    background-image: url(http://ntheanh201.github.io/img/background);
+    height: 838px;
+    width: 1123px;
+}
+
 .video-background {
   background: #000;
   position: fixed;
