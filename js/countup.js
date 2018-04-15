@@ -4,7 +4,7 @@ function aaa()
 {   
 
 var now = new Date(); 
-var xmasDay = new Date(2016, 11, 18,20,0,0); // khởi tạo ngày Noel cùng năm với ngày hiện tại 
+var xmasDay = new Date(1999, 01, 20,00,0,0); // khởi tạo ngày Noel cùng năm với ngày hiện tại 
 var offset = -xmasDay.getTime() + now.getTime(); // lấy độ lệch của 2 mốc thời gian, đơn vị tính là millisecond 
 var totalDays = Math.round(offset / 1000 / 60 / 60 / 24); 
 var totalHours = Math.round(offset / 1000 / 60 / 60); 
