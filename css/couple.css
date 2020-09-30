@@ -1,126 +1,125 @@
-@import url('https://fonts.googleapis.com/css?family=Courgette');
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i&subset=cyrillic');
+@import url("https://fonts.googleapis.com/css?family=Courgette");
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i&subset=cyrillic");
 
 body {
-   background: url(http://ntheanh201.github.io/yeu/img/background.png) no-repeat center center fixed;
+  background: url(http://ntheanh201.github.io/love-anniversary/img/background.png)
+    no-repeat center center fixed;
   -webkit-background-size: 100%;
   -moz-background-size: 100%;
   -o-background-size: 100%;
   background-size: 100%;
-  font-family: 'Roboto', Helvetica, sans-serif;
+  font-family: "Roboto", Helvetica, sans-serif;
   color: #666;
   margin: 0;
   height: 100%;
   font-size: 100%;
   line-height: 1.5em;
 }
-#lvhp{
-    margin-left: 17%;
+#lvhp {
+  margin-left: 17%;
 }
-#loveHeart
-{
+#loveHeart {
   height: 500px;
   width: 500px;
 }
-#ofmusic{
-    position: absolute;
-    width: 40px;
-    height: 60px;
-    bottom: 40px;
-    border-top:3px solid white; 
-    border-right:3px solid white; 
-    border-bottom:4px solid white;
-    box-shadow: 3px 4px 5px rgba(0,0,0,0.5);
-    border-radius: 0px 10px 10px 0px;
-    background-color: rgba(148,37,37,0.5);
-    z-index: 10000;
-    
+#ofmusic {
+  position: absolute;
+  width: 40px;
+  height: 60px;
+  bottom: 40px;
+  border-top: 3px solid white;
+  border-right: 3px solid white;
+  border-bottom: 4px solid white;
+  box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.5);
+  border-radius: 0px 10px 10px 0px;
+  background-color: rgba(148, 37, 37, 0.5);
+  z-index: 10000;
 }
-#musicbuton{
-    width: 20px;
-    height: 40px;
-    border-radius:20px;
-    background: rgba(91,218,77,0.7);
-    margin: auto;
-    margin-top: 5px;
-    cursor: pointer;
-    transition: 0.5s ease;
+#musicbuton {
+  width: 20px;
+  height: 40px;
+  border-radius: 20px;
+  background: rgba(91, 218, 77, 0.7);
+  margin: auto;
+  margin-top: 5px;
+  cursor: pointer;
+  transition: 0.5s ease;
 }
 
-@font-face
-{
-  font-family: 'SVNCoco';
-  src: url('../fonts/RixLoveFool/SVN-CocoFY.tff');
+@font-face {
+  font-family: "SVNCoco";
+  src: url("../fonts/RixLoveFool/SVN-CocoFY.tff");
 }
-#special-name
-{
+#special-name {
   font-family: RixLove;
 }
-#counter
-{
+#counter {
   top: 30%;
   font-family: FiolexGirl;
-  padding-top:300px;
+  padding-top: 300px;
   font-size: 45px;
-  color: #FBF8EF;
+  color: #fbf8ef;
 }
 @keyframes fadeIn {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 #counter {
   -webkit-animation: fadeIn 9s ease-out;
   animation: fadeIn 9s ease-out;
 }
-@font-face
-{
-    font-family: 'RixLove';
-    src: url('../fonts/RixLoveFool.ttf');
+@font-face {
+  font-family: "RixLove";
+  src: url("../fonts/RixLoveFool.ttf");
 }
-#birthday
-{
-  font-family: 'RixLove';
+#birthday {
+  font-family: "RixLove";
   font-size: 25px;
 }
-#active{
-    top:7px;
-    left: 10px;
-    position: absolute;
-    width: 18px;
-    height: 18px;
-    border-radius: 50%;
-    background: rgba(255,255,255,1);
-    transition: 0.3s ease;
+#active {
+  top: 7px;
+  left: 10px;
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 1);
+  transition: 0.3s ease;
 }
-#pp-nav span,.pp-slidesNav span {
-    width: 12px;
-    height: 12px;
-    background: rgba(255, 255, 255, 0.6);
-    border-radius: 50%;
-    position: absolute;
-    z-index: 1;
-    border: none;
+#pp-nav span,
+.pp-slidesNav span {
+  width: 12px;
+  height: 12px;
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 50%;
+  position: absolute;
+  z-index: 1;
+  border: none;
 }
-#menu li{
-    border-radius: 12px;
-    background-color: rgba(148,37,37,0.8);
-    border: 3px solid white;
-    box-shadow: 3px 4px 5px rgba(0,0,0,0.5);
+#menu li {
+  border-radius: 12px;
+  background-color: rgba(148, 37, 37, 0.8);
+  border: 3px solid white;
+  box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.5);
 }
-#menu li a{
-    color: white;
+#menu li a {
+  color: white;
 }
-#color{
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    left: 0;
-    right: 0;
-    background-color: firebrick;
-    opacity: 0.4;
+#color {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  background-color: firebrick;
+  opacity: 0.4;
 }
 a {
-  color: #0099CC;
+  color: #0099cc;
   text-decoration: none;
   outline: none;
   -webkit-transition-duration: 0.3s;
@@ -129,36 +128,43 @@ a {
 
 a:hover {
   color: #006699;
-  color: #0099CC;
+  color: #0099cc;
   text-decoration: none;
   outline: none;
 }
 
-a:visited, a:visited:hover {
+a:visited,
+a:visited:hover {
   text-decoration: none;
 }
 
 @font-face {
-    font-family: 'FiolexGirl';
-    src: url('../fonts/FiolexGirlVH.ttf');
+  font-family: "FiolexGirl";
+  src: url("../fonts/FiolexGirlVH.ttf");
 }
 .homepage-cover {
-    background-size: cover;
-    background-position: center center;
+  background-size: cover;
+  background-position: center center;
 }
-element.style{
-    background-image: url(http://ntheanh201.github.io/yeu/img/background.png);
-    width:100%;
-    height:100%;
-    position: fixed;
-    top: 0; right: 0; bottom: 0; left: 0;
-    z-index: -99;
+element.style {
+  background-image: url(http://ntheanh201.github.io/love-anniversary/img/background.png);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -99;
 }
 
 .video-background {
   background: #000;
   position: fixed;
-  top: 0; right: 0; bottom: 0; left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
   z-index: -99;
 }
 .video-foreground,
@@ -171,26 +177,40 @@ element.style{
   pointer-events: none;
 }
 @media (min-aspect-ratio: 16/9) {
-  .video-foreground { height: 300%; top: -100%; }
+  .video-foreground {
+    height: 300%;
+    top: -100%;
+  }
 }
 @media (max-aspect-ratio: 16/9) {
-  .video-foreground { width: 300%; left: -100%; }
+  .video-foreground {
+    width: 300%;
+    left: -100%;
+  }
 }
 @media all and (max-width: 600px) {
-.vid-info { width: 50%; padding: .5rem; }
-.vid-info h1 { margin-bottom: .2rem; }
+  .vid-info {
+    width: 50%;
+    padding: 0.5rem;
+  }
+  .vid-info h1 {
+    margin-bottom: 0.2rem;
+  }
 }
 @media all and (max-width: 500px) {
-.vid-info .acronym { display: none; }
+  .vid-info .acronym {
+    display: none;
+  }
 }
 
-.male,.female {
+.male,
+.female {
   color: white;
-  font-family: 'FiolexGirl';
+  font-family: "FiolexGirl";
   line-height: 1.5em;
   margin-top: 0;
   margin-bottom: 10px;
-  font-size:30px;
+  font-size: 30px;
 }
 
 p {
@@ -203,16 +223,14 @@ img {
   vertical-align: bottom;
   max-width: 100%;
   height: auto;
-
 }
-.photo{
-    border: 5px solid white;
-    border-radius: 50%;
+.photo {
+  border: 5px solid white;
+  border-radius: 50%;
 }
 .couple {
   width: 100%;
   position: relative;
-  
 }
 
 .couple-block {
@@ -221,21 +239,21 @@ img {
   background-color: firebrick;
   border-radius: 15px;
 }
-.couple-block:hover, .bottom-block:hover{
+.couple-block:hover,
+.bottom-block:hover {
   position: relative;
   width: 48%;
-  background:url('../img/heart_falling.gif');
-  color:white;
-  
+  background: url("../img/heart_falling.gif");
+  color: white;
 }
 .couple-block.first-block {
   float: left;
   margin-right: 2%;
-  box-shadow: 2px 3px 4px rgba(0,0,0,0.5);
+  box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.5);
 }
 
 .couple-block.second-block {
-  box-shadow: 2px 3px 4px rgba(0,0,0,0.5);
+  box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.5);
   float: right;
 }
 
@@ -260,7 +278,7 @@ img {
   line-height: 1em;
   color: white;
   margin-top: 15px;
-font-size: 50px;
+  font-size: 50px;
 }
 
 .couple-block .name p {
@@ -269,7 +287,7 @@ font-size: 50px;
   line-height: 1em;
   color: #f1f1f1;
   margin: 0;
-  font-family: 'Calibri',sans-serif;
+  font-family: "Calibri", sans-serif;
 }
 
 .couple-block .photo {
@@ -349,20 +367,20 @@ font-size: 50px;
 }
 
 ul.social-links {
-    display: inline-block;
-    list-style: none;
-    margin: 8px auto 0;
-    padding: 0;
+  display: inline-block;
+  list-style: none;
+  margin: 8px auto 0;
+  padding: 0;
 }
 
 ul.social-links li {
-    float: left;
-    margin: 0;
-    padding: 0;
+  float: left;
+  margin: 0;
+  padding: 0;
 }
 
 ul.social-links li a {
-  color:orange;
+  color: orange;
   font-size: 13px;
   margin: 0 4px;
 }
@@ -386,36 +404,34 @@ ul.social-links li a:hover img {
   -o-transform: rotateY(360deg);
   transform: rotateY(360deg);
 }
-#center{
-    position: absolute;
-    height: 5px;
-    width: 300px;
-    left: 50%;
-    transform: translate(-50%);
-    top: 520px;
-    background: rgba(255,255,255,0.8);
-    
+#center {
+  position: absolute;
+  height: 5px;
+  width: 300px;
+  left: 50%;
+  transform: translate(-50%);
+  top: 520px;
+  background: rgba(255, 255, 255, 0.8);
 }
-#TextCounter{
-    top:540px;
-    height: auto;
-    position: absolute;
-    left: 50%;
-    transform:  translate(-50%);
-    
+#TextCounter {
+  top: 540px;
+  height: auto;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
 }
-#click{
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%);
-    top:600px;
-    color: white;
-    font-family: "Calibri",sans-serif;
-    opacity: 0.5;
+#click {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  top: 600px;
+  color: white;
+  font-family: "Calibri", sans-serif;
+  opacity: 0.5;
 }
-#muiten{
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%);
-    top: 570px;
+#muiten {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  top: 570px;
 }
